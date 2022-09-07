@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册界面</title>
+</head>
+<body>
+    <h4>青春不常在，抓紧弹恋爱</h4>
+    <form>
+        <table width="600">
+            <!-- 第一行 -->
+            <tr>
+                <td>
+                    性别
+                </td>
+                <td>
+                    <input type="radio" name="sex" id="sex1"/>
+                    <label for="sex1"><img src="./images/man.jpg"/> 男 </label>
+                    <input type="radio" name="sex" id="sex0"/>
+                    <label for="sex0"><img src="./images/women.jpg"/> 女 </label>
+                </td>
+            </tr>
+            <!-- 第二行 -->
+            <tr>
+                <td>
+                    生日
+                </td>
+                <td>
+                    <select name="year" id="year">
+                        <option>
+                            --请选择年--
+                        </option>
+                        <option>
+                            2000
+                        </option>
+                        <option>
+                            2001
+                        </option>
+                        <option>
+                            2002
+                        </option>
+                    </select>
+                    <select name="month" id="month">
+                        <option>
+                            --请选择月--
+                        </option>
+                        <option>
+                            1
+                        </option>
+                        <option>
+                            2
+                        </option>
+                        <option>
+                            3
+                        </option>
+                    </select>
+                    <select name="day" id="day">
+                        <option>
+                            --请选择日--
+                        </option>
+                        <option>
+                            1
+                        </option>
+                        <option>
+                            2
+                        </option>
+                        <option>
+                            3
+                        </option>
+                    </select>
+                </td>
+            </tr>
+            <!-- 第三行 -->
+            <tr>
+                <td>
+                    所在地区
+                </td>
+                <td>
+                    <input type="text" value="请输入地区"/>
+                </td>
+            </tr>
+            <!--第四行-->
+            <tr>
+                <td>
+                    婚姻状况
+                </td>
+                <td>
+                    <input type="radio" name="marry"/>未婚
+                    <input type="radio" name="marry"/>已婚
+                    <input type="radio" name="marry"/>离异
+                </td>
+            </tr>
+            <!-- 第五行 -->
+            <tr>
+                <td>学历</td>
+                <td>
+                    <input type="text" value="请输入最高学历">
+                </td>
+            </tr>
+            <!-- 第六行 -->
+            <tr>
+                <td>喜欢的类型</td>
+                <td>
+                    <input type="checkbox" name="love" id="hobby1">成熟的
+                    <input type="checkbox" name="love" id="hobby2">可爱的
+                    <input type="checkbox" name="love" id="hobby3">年轻的
+                    <input type="checkbox" name="love" id="hobby4">都喜欢
+                    <input type="checkbox" name="love" id="hobby5">其它
+                </td>
+            </tr>
+            <!-- 第七行 -->
+            <tr>
+                <td>自我介绍</td>
+                <td>
+                    <textarea name="introduce">自我介绍</textarea>
+                </td>
+            </tr>
+            <!-- 第八行 -->
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" name="submit" id="submit" value="免费注册">
+                </td>
+            </tr>
+            <!-- 第九行 -->
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" name="agree" id="agree" checked="checked">
+                    我同意<a href="#">注册条款</a>和<a href="#">会员加入标准</a>
+                    <br />
+                    <a href="#">我是会员，立即登录</a>
+                    <br />
+                    <h2>我承诺</h2>
+                    <ul>
+                        <li>年满18岁、单身</li>
+                        <li>抱着严肃的态度</li>
+                        <li>真诚寻找另一半</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="reset" value="重新填写">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
