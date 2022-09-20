@@ -5,16 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BoxText</title>
     <style>
         div {
-            background-color: gainsboro;
+            background-color: rgb(112, 137, 204);
             /* border-style: solid; */
             /* border-style: dotted; */
             /* border-style: dashed; */
             /* border-color: skyblue; */
-            border: 5px skyblue solid;
+            /* border : border-width border-style border-color;（复合写法，没有顺序） */
+            border: 5px gainsboro solid;
             border-top: 5px red solid;
+            border-bottom: 10px pink dashed;
+            border-left: 5px blanchedalmond dotted;
             width: 300px;
             height: 300px;
         }
@@ -22,20 +25,12 @@
 </head>
 
 <body>
-    <ol>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ol>
-    <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
+    <table>
+        <tr>
+            <th>text1</th>
+        </tr>
+        <tr>text2</tr>
+    </table>
     <div class="div1"></div>
 </body>
 
